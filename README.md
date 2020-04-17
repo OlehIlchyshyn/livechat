@@ -1,24 +1,25 @@
-# README
+# Live Chat
+Register, join room and talk as many as you want :) 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You can access it any time: [Visit website](https://livechat-pvi.herokuapp.com/)
 
-Things you may want to cover:
+## Running local instance
 
-* Ruby version
+If you wish, you could also run it on your own machine.
+To do so, you need to follow these steps:
+* Make sure you have following up and running:
+  * ```ruby```
+  * ```rails```
+  * ```postgres```
+  * ```redis-server```
+  * ```docker``` (optional, but highly recommended)
+* Clone the repo
+* Run ```bundle install```
+* Run ```rails db:create``` and ```rails db:migrate```
+* Configure your local REDIS server to run at port ```6379``` (i used docker for that purpose, and recommend you to do the same)
+* Run ``` rails server```
+* Enjoy using website at ```https://localhost:3000```
 
-* System dependencies
+## Authors
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* **Oleh Ilchyshyn** - [Contact me](https://t.me/t1neoff)
