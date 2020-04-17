@@ -25,6 +25,10 @@ gem 'jbuilder', '~> 2.7'
 # User authentication
 gem 'devise', '~> 4.7', '>= 4.7.1'
 
+# Some styles
+gem 'bootstrap-sass'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
