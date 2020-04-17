@@ -27,6 +27,7 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
 gem 'simple_form', '~> 5.0', '>= 5.0.2'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 
 # Redis
 gem 'redis', '~> 4.1', '>= 4.1.3'

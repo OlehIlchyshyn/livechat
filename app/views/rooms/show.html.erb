@@ -1,13 +1,12 @@
-<h1>
-  <%= @room.name %>
-</h1>
-
 <div class="row">
   <div class="col-12 col-md-3">
     <%= render partial: 'rooms' %>
   </div>
 
   <div class="col">
+    <h1 class="text-center">
+      <%= @room.name %>
+    </h1>
     <div class="chat" data-channel-subscribe="room" data-room-id="<%= @room.id %>">
       <% @room_messages.each do |room_message| %>
         <div class="chat-message-container">
