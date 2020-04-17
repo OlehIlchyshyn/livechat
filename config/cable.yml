@@ -1,6 +1,6 @@
 development:
   adapter: redis
-  url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
+  url: <%= ENV.fetch("REDIS_URL") { "redis://h:p011299cb1736bfefe1f2bcc4d2dea3f021bc8fbb5a0b058f2173c11505d29c5b@ec2-54-165-71-25.compute-1.amazonaws.com:31239" } %>
   channel_prefix: livechat_development
 
 test:
@@ -8,5 +8,5 @@ test:
 
 production:
   adapter: redis
-  url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
+  url: <%= ENV.fetch("REDIS_URL") { "redis://h:p011299cb1736bfefe1f2bcc4d2dea3f021bc8fbb5a0b058f2173c11505d29c5b@ec2-54-165-71-25.compute-1.amazonaws.com:31239" } %>
   channel_prefix: livechat_production
