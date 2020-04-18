@@ -3,7 +3,7 @@
     <%= render partial: 'rooms' %>
   </div>
 
-  <div class="col">
+  <div class="col-12 col-md-7">
     <h1 class="text-center">
       <%= @room.name %>
     </h1>
@@ -49,13 +49,17 @@
       <%= form.input :room_id, as: :hidden %>
     <% end %>
   </div>
+ <%= render partial: 'shared/userlist' %>
 </div>
+
+
 
 <div class="d-none" data-role="message-template">
   <div class="chat-message-container">
     <div class="row no-gutters">
       <div class="col-auto text-center">
-        <img src="" class="avatar" alt="" data-role="user-avatar">
+        <img src="" class="avatar" alt="" data-role="user-avatar"
+            data-toggle="tooltip" data-placement="bottom" title="">
       </div>
 
       <div class="col">

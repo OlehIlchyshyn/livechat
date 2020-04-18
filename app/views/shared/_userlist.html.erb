@@ -1,0 +1,11 @@
+<div class="col-12 col-md-2" style="margin-bottom: 80px">
+  <h5 class="card-header text-center">Chat users</h5>
+    <ul class="list-group">
+      <% User.all.each do |user| %>
+      <li class="list-group-item">
+          <img class="avatar mr-2" src="<%= user.gravatar_url %>" alt="" />
+          <%= user.username %>
+      </li>
+      <% end %>
+    </ul>
+</div>
